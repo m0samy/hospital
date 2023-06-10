@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+:root {
+    --blue:#0188DF;
+    --black:#354046;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html {
+    font-size: 89.5%;
+}
+.container ul a:hover {
+    color: var(--blue);
+}
+.home .content h1 {
+    /*1 rem = 20px*/
+    font-size: 3rem;
+    color: var(--black);
+}
+.home .content h3 {
+    font-size: 2rem;
+    color: var(--black);
+}
+.button {
+    border-radius: .3rem;
+    background-color: var(--blue);
+    color: #fff;
+    transition:  background-color 1s;
+}
+.button:hover {
+    background-color: var(--black);
+    color: #fff;
+}
+/*about*/
+.about {
+    background: #eee;
+}
+.about .content .box {
+    margin: 2rem 0;
+}
+.about .content .box h3 {
+    font-size: 1.5rem;
+    color: var(--black);
+}
+.about .content .box h3 i {
+    padding: 0 1rem;
+    color: var(--blue);
+}
+.about .content .box p {
+    font-size: 1rem;
+    padding-left: 4rem;
+}
+/*facility*/
+.heading {
+    font-size: 3rem;
+    padding: .5rem;
+    padding-top: 7rem;
+    color: var(--black);
+}
+.heading span {
+    color: var(--blue);
+}
+.facility .container .box:hover img {
+    transform: scale(1.1);
+}
+/*review*/
+.review {
+    background: url(../images/background-img.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.review .box img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+/*counter*/
+.counter i {
+    color: var(--blue);
+    font-size: 40px;
+}
+.counter span {
+    color: var(--black);
+    font-size: 20px;
+    display: block;
+    padding: 10px 0;
+}
+.counter h3 {
+    color: #666;
+    font-size: 20px;
+}
+/*contact*/
+.contact form textarea {
+    resize: none;
+}
+.contact form input[type="submit"]:hover {
+    background: var(--black);
+    color: #fff;
+}
+/*posts*/
+.post .box-container .box {
+    overflow: hidden;
+    border-radius: .4rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+}
+.post .box-container .box h3 {
+    font-size: 1.5rem;
+    color: var(--black);
+}
+.post .box-container .box h3:hover {
+    color: var(--blue);
+}
+.post .box-container .box p {
+    font-size: 1rem;
+    color: var(--black);
+}
+/*footer*/
+.footer {
+    background-color: var(--black);
+}
+.footer .container a {
+    color: #fff;
+}
+.footer .credit {
+    border-top: .1rem solid #ccc !important;
+}
+.footer .credit span {
+    color: var(--blue);
+}
+.footer .val {
+    font-size: xx-large;
+}
